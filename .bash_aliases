@@ -1,0 +1,8 @@
+alias eyewitness='python3 ~/tools/EyeWitness/Python/EyeWitness'
+alias mot='sxiv ~/hack/.mot/* & disown'
+alias v='vim'
+alias sv='sudo vim'
+alias learn='cat ~/hack/learn'
+alias sa='sudo apt'
+alias shutdown='sudo systemctl poweroff'
+alias amass='~/tools/amass_Linux_amd64/amass'
