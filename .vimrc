@@ -20,6 +20,7 @@ set splitbelow splitright
 
 " remap S to replace all
 nnoremap S :%s//g<Left><Left>
+vnoremap ,p :norm 0xxxx<Enter>
 
 " remove trailing whitespace
 autocmd BufWritePre * %s/\s\+$//e
