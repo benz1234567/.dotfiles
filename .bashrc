@@ -115,3 +115,6 @@ fi
 export PS1="\[$(tput setaf 33)\]\u\[$(tput setaf 52)\]@\[$(tput setaf 196)\]\h \[$(tput setaf 99)\]\w \[$(tput sgr0)\]$ " #prompt
 shopt -s autocd #cd without typing cd
 set -o vi #vim settings in commands
+export PATH=$PATH:"$HOME/.local/share/gem/ruby/3.3.0"
+export PATH="$PATH:/opt/nvim-linux64/bin"
+export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
