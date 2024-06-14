@@ -6,6 +6,7 @@ export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:"$HOME/.local/share/gem/ruby/3.3.0/bin"
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 export PATH=$PATH:~/suckless/.scripts
+export OBSIDIANDIRECTORY=$HOME/Zettelkasten
 setxkbmap us
 if [ $(echo $SSH_CLIENT) == ""]
 then
