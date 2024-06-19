@@ -118,3 +118,4 @@ set -o vi #vim settings in commands
 export PATH=$PATH:"$HOME/.local/share/gem/ruby/3.3.0"
 export PATH="$PATH:/opt/nvim-linux64/bin"
 export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
+export EDITOR=nvim
