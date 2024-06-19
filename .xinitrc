@@ -1,7 +1,7 @@
 ~/.fehbg & # set background
 picom --experimental-backends -b & # terminal transparency
-bash ~/suckless/.scripts/statusbar.sh &
-bash ~/suckless/.scripts/nightlight.sh &
+~/suckless/.scripts/statusbar &
+~/suckless/.scripts/nightlight &
 xrandr --output DVI-D-0 --auto --left-of DisplayPort-1 # sets monitor configuration
 dunst & # notification service
 xset r rate 300 50 # makes cursor move faster
