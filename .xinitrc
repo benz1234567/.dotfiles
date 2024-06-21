@@ -7,5 +7,5 @@ dunst & # notification service
 xset r rate 300 50 # makes cursor move faster
 setxkbmap us # allows pastes to work properly with keyboard config
 #xrdb .Xresources &
-gitall pull
+gitall pull &
 exec dwm
