@@ -19,3 +19,4 @@ alias startmm='sudo docker compose -f docker-compose.yml -f docker-compose.witho
 alias killmm='sudo docker compose -f docker-compose.yml -f docker-compose.without-nginx.yml down'
 alias p='xclip -o -sel clip'
 alias lastcommand='tail -1 ~/.bash_history'
+alias smc='sudo make clean install'
